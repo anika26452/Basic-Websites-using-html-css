@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            .link{
+                margin-left: 900px;
+                margin-top: 30px;
+            }
+            a{
+                text-decoration: none;
+                margin-right: 30px;
+                border-radius: 4px;
+                font-size: 14px;
+                padding: 12px 20px;
+                border: 1px solid #f2f2f2;
+                background-color: #f2f2f2;
+                color: #5F6368;
+            }
+            a:link{
+                color: #5F6368;
+            }
+            a:hover{
+                border-color: rgb(110, 110, 110);
+                color: rgb(48, 47, 47);
+            }
+            .form{
+                margin: auto;
+                margin-top: 18%;
+                width: 50%;
+                padding: 10px;
+                text-align: center;
+            }
+            #search_bar{
+                width: 500px;
+                border-radius: 25px;
+                border: 1px solid #6b6b6a;
+                font-size: 20px;
+                padding: 12px 30px;
+                outline: none;
+                background-color: transparent;
+                color: rgba(0,0,0,.87);
+            }
+            #search_bar:hover{
+                border-color: rgb(177, 192, 192);
+            }
+            #search_button{
+                border-radius: 4px;
+                font-size: 14px;
+                padding: 12px 20px;
+                border: 1px solid #f2f2f2;
+                background-color: #f2f2f2;
+                color: #5F6368;
+            }
+            #search_button:hover{
+                border-color: rgb(110, 110, 110);
+                color: rgb(48, 47, 47);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="link">
+            <a href = "image.html">Google Image Search</a>
+            <a href="advanced.html">Google Advanced Search</a>
+        </div>
+        <div class="form">
+            <form action="https://google.com/search">
+                <input id="search_bar" type="text" name="q">
+                <br><br><br>
+                <div>
+                    <input id="search_button" type="submit" value="Google Search">
+                    <input id="search_button" type="submit" formaction="https://www.google.com/doodles/" value="I’m Feeling Lucky"> 
+                </div>
+                
+            </form>
+        </div>
+    </body>
+</html>
